@@ -1,0 +1,6 @@
+interface:
+  display_name: "GoneBot"
+  short_description: "Reduce data-broker exposure safely"
+  default_prompt: "Use $gonebot to seek the strongest available deletion, suppression, opt-out, block, or freeze for my personal information, with my approval for every action."
+policy:
+  allow_implicit_invocation: false

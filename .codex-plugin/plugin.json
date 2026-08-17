@@ -1,0 +1,35 @@
+{
+  "name": "gonebot",
+  "version": "0.1.1",
+  "description": "Help users reduce data-broker exposure with approval-bound deletion, suppression, opt-out, block, or freeze requests.",
+  "author": {
+    "name": "Alex McNamara",
+    "url": "https://github.com/amcnamara"
+  },
+  "homepage": "https://gone.bot/",
+  "repository": "https://github.com/nexese/gone.bot",
+  "license": "MIT",
+  "keywords": [
+    "privacy",
+    "data-brokers",
+    "opt-out",
+    "deletion"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GoneBot",
+    "shortDescription": "Reduce data-broker exposure safely.",
+    "longDescription": "Prepare and track approval-bound data-broker deletion, suppression, opt-out, block, and freeze requests.",
+    "developerName": "Alex McNamara",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://gone.bot/",
+    "privacyPolicyURL": "https://gone.bot/legal-and-privacy/",
+    "defaultPrompt": [
+      "Help me remove my personal information from data brokers."
+    ],
+    "brandColor": "#173F36"
+  }
+}

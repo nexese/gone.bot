@@ -1,0 +1,8 @@
+# User-controlled progress must not be committed
+/gonebot-progress.md
+/*.local.md
+/state/*.local.md
+
+# Editor and operating-system metadata
+.DS_Store
+*.swp

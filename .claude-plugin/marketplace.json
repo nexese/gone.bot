@@ -1,0 +1,22 @@
+{
+  "name": "gonebot",
+  "owner": {
+    "name": "Alex McNamara",
+    "url": "https://github.com/amcnamara"
+  },
+  "description": "GoneBot privacy-removal instructions for Claude Code.",
+  "plugins": [
+    {
+      "name": "gonebot",
+      "source": "./",
+      "displayName": "GoneBot",
+      "description": "Help users reduce data-broker exposure with approval-bound removal requests.",
+      "category": "productivity",
+      "tags": [
+        "privacy",
+        "data-brokers",
+        "opt-out"
+      ]
+    }
+  ]
+}
