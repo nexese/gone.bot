@@ -12,11 +12,11 @@ Use this prompt in [ChatGPT desktop](https://chatgpt.com/download/) or [Claude C
 Open https://gone.bot, install the GoneBot plugin using its setup instructions, and help me remove my personal information.
 ```
 
-Your desktop client reads the public [GoneBot setup instructions](https://gone.bot/agent.md), installs the plugin through its supported plugin manager, confirms its browser, email, and local-file capabilities, and then asks for the minimum information needed to begin. The client will explain if it can load GoneBot only for the current conversation instead.
+Your desktop client reads the public [GoneBot setup instructions](https://gone.bot/AGENTS.md), installs the plugin through its supported plugin manager, confirms its browser, email, and local-file capabilities, and then asks for the minimum information needed to begin. The client will explain if it can load GoneBot only for the current conversation instead.
 
 You choose a private local path for the progress file and approve every external submission or message by replying in the conversation. The agent provides a manual fallback for any missing connector. Before a security freeze, it explains which report will be restricted and how the freeze could affect legitimate applications.
 
-The ChatGPT/Codex and Claude Code plugins package the same [`skills/gonebot/SKILL.md`](skills/gonebot/SKILL.md), which loads the canonical [`AGENTS.md`](AGENTS.md). Claude also discovers that shared file through the small [`CLAUDE.md`](CLAUDE.md) project adapter. The instructions load the ordered workflow in [`instructions/README.md`](instructions/README.md), broker guidance in [`brokers/`](brokers/), request wording in [`templates/`](templates/), and the local [`state/progress-template.md`](state/progress-template.md) only as needed.
+The ChatGPT/Codex and Claude Code plugins package the same [`skills/gonebot/SKILL.md`](https://github.com/nexese/gone.bot/blob/main/skills/gonebot/SKILL.md), which loads the canonical [`AGENTS.md`](AGENTS.md). Claude also discovers that shared file through the small [`CLAUDE.md`](CLAUDE.md) project adapter. The instructions load the ordered workflow in [`instructions/README.md`](instructions/README.md), broker guidance in [`brokers/`](brokers/), request wording in [`templates/`](templates/), and the local [`state/progress-template.md`](state/progress-template.md) only as needed.
 
 ## Safety boundary
 
