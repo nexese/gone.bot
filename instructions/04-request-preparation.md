@@ -7,6 +7,7 @@ Choose the deletion, opt-out, or freeze template under [`../templates/`](../temp
 - Include only fields the reviewed channel requires to locate or verify the user's record.
 - Keep optional demographic, account, and identity details out unless the user chooses to add them for a stated purpose.
 - Do not add legal citations or claims unless they are supported by current official guidance and relevant to the user's known facts.
+- Do not treat the jurisdiction guide, citizenship, or a country-specific portal as proof that a statutory right applies.
 - Never fabricate an account, listing URL, residence, relationship, or identity fact.
 
 ## Prepare a preview

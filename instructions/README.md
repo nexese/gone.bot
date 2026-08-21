@@ -13,6 +13,7 @@ GoneBot is a set of ordered instructions for an agent harness helping a user mak
 
 ## Source material
 
+- [`../jurisdictions/README.md`](../jurisdictions/README.md) is the short route and wording guide for users outside California or brokers whose choices vary by residence.
 - [`../brokers/README.md`](../brokers/README.md) contains broker profiles and their evidence limits.
 - [`../templates/README.md`](../templates/README.md) contains request and follow-up text.
 - [`../state/progress-template.md`](../state/progress-template.md) defines the flat-file progress format.

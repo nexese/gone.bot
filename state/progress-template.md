@@ -16,6 +16,7 @@
 ### `[broker-id]` — `[broker name]`
 
 - Goal: `[delete | suppress | opt-out | block | freeze]`
+- Request basis: `[broker control | country/state/region route | supported legal basis | unknown]`
 - Effect: `[erase | hide public listing | stop stated use | restrict report release]`
 - Scope: `[specific product, report, listing, or use covered]`
 - Application warning reviewed: `[yes | no | not applicable]`

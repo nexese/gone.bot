@@ -2,7 +2,7 @@
 
 ## Collect only what is needed
 
-Start with non-sensitive facts: desired outcome, jurisdiction, broker, preferred channel, and whether the user is acting for themself. Determine required personal fields only from the selected broker profile and current official restriction page.
+Start with non-sensitive facts: desired outcome, jurisdiction, broker, preferred channel, and whether the user is acting for themself. Record the user's stated country, state, or region; do not infer it from nationality, language, a broker's location, or an IP address. Load [`../jurisdictions/README.md`](../jurisdictions/README.md) when the user is outside California or the broker's choices vary by residence. Determine required personal fields only from the selected broker profile and current official restriction page.
 
 Sensitive values should remain in the user's chosen local environment. When possible, have the user enter them directly into a browser form or email draft rather than repeating them in conversation.
 

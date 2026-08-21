@@ -2,6 +2,8 @@
 
 Each broker profile is a reviewable Markdown file describing the strongest supported exposure-reduction channel, minimum known fields, manual checkpoints, and limitations. Prefer deletion; otherwise use persistent suppression, opt-out, block, or a security freeze. A freeze restricts access to a report and does not erase it. Profiles are guidance for the harness; they are not executable workflows and do not prove that a company holds the user's data.
 
+For a user outside California, or where choices vary by residence, first use the short [`../jurisdictions/README.md`](../jurisdictions/README.md) guide. It selects a country route and avoids unsupported legal claims; the broker’s live official page remains authoritative.
+
 ## Current profiles
 
 - [`california-drop.md`](california-drop.md) — California's government-operated deletion mechanism; manual guidance only.

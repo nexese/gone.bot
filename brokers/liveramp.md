@@ -2,38 +2,37 @@
 
 - ID: `liveramp`
 - Category: advertising
-- Jurisdictions: United States opt-out; deletion depends on residence
+- Jurisdictions: country-routed choices, including Canada, the EEA, and the United Kingdom; availability depends on residence and current policy
 - Review status: reviewed guidance
 - Last reviewed: 2026-08-14
 
-## Official sources
+## Reviewed source snapshot
 
-- Privacy choices: <https://liveramp.com/privacy/my-privacy-choices/>
-- Privacy policy: <https://liveramp.com/privacy/service-privacy-policy/>
+On 2026-08-19, LiveRamp's privacy-center material listed global mobile-identifier and third-party-cookie choices, a Canadian request portal, a United Kingdom portal and privacy contact, and EEA country contacts. This local summary—not a live third-party page—is the planning source for this profile.
 
 ## Supported goals
 
-- `opt-out` — LiveRamp describes an opt-out choice available across the United States, with separate device- or browser-specific choices also offered.
-- `delete` — use only when the live page offers deletion for the user's stated residence.
+- `opt-out` — LiveRamp presents global mobile-identifier and third-party-cookie choices, plus country-specific rights channels. Keep browser/device choices distinct from a comprehensive request.
+- `delete` — use only the deletion or erasure choice presented by the official country route for the user's stated residence.
 
 ## Channels and required capabilities
 
-- Channel: browser form, currently routed through a third-party removal request portal
+- Channel: browser form or country-specific privacy contact, as routed from LiveRamp's official privacy center
 - Harness capabilities: browser, email, and filesystem
-- Destination: start at <https://liveramp.com/privacy/my-privacy-choices/>
+- Destination: `liveramp-privacy-center` — resolve only after a user-approved external-navigation preview
 
 ## Minimum known fields
 
 - First and last name — used for a comprehensive request
 - Email address — used for a comprehensive request and responses
-- Residence — determines which choices the live flow offers
+- Country or residence — determines the current official route and available choices; do not infer it
 - Removal goal — opt-out or deletion; keep device-level and comprehensive choices distinct
 
 ## Procedure
 
 1. Ask the user for their goal and residence; do not infer legal eligibility.
-2. Open LiveRamp's official privacy-choices page and follow only its current official link.
-3. Keep device/browser opt-out separate from a comprehensive request.
+2. After the user approves the external-navigation preview, open only the LiveRamp-branded privacy center and choose the route that matches the user's stated residence.
+3. Keep global mobile-identifier or third-party-cookie choices separate from a country-routed comprehensive request.
 4. Show the exact request, destination domain, and values before submission.
 5. The user completes verification and final submission.
 6. Record the portal acknowledgment and later outcome separately.
@@ -52,5 +51,6 @@ An opt-out is not the same as deletion. A device-level choice is not proof of a 
 
 ## Limitations
 
-- Availability of deletion varies by residence and current law.
-- LiveRamp's page and linked request provider can change. Stop if the domain, choices, or requested data differ materially.
+- Availability of deletion and the appropriate country route vary by residence and current policy.
+- A country-specific route does not by itself establish legal eligibility. Use the jurisdiction guide and the live form's offered choices.
+- Stop if the destination, choices, or requested data differ materially from this reviewed snapshot.
