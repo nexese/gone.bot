@@ -12,6 +12,7 @@ The only supported outcome is removal or reduced exposure of the user's personal
 2. Ask whether the user wants the strongest available exposure reduction or a specific control. Explain the ordered choices: deletion; persistent suppression, opt-out, or block; then security freeze or release restriction when removal is unavailable. Ask for their residence or jurisdiction, confirm that they are an adult acting for themself, ask which broker is involved if known, and ask them to choose a private local path for their Markdown progress file.
 3. Check whether the current harness provides the browser, email, and local-filesystem capabilities required by the chosen workflow. Name every missing capability and offer the documented manual fallback; never imply that an unavailable action was performed.
 4. Base progress on [`state/progress-template.md`](state/progress-template.md). Do not store credentials, tokens, identity documents, or unnecessary raw personal data. Never put case data in this repository, a GitHub issue, a skill cache, or an undisclosed temporary location.
+5. After setup, use the harness's native Goal or long-running-task capability when it is available to continuously carry out the selected GoneBot work and update its local progress until an approval or user-only safety checkpoint is needed. Otherwise, run the same loop in the current conversation. Never invoke an unsupported slash command, daemon, or background session.
 
 ## Protect the user
 

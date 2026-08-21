@@ -1,6 +1,6 @@
 # 6. Monitoring and maintenance
 
-GoneBot has no daemon or background scheduler. Monitoring happens when the user starts a harness session or configures harness-owned automation outside this repository.
+GoneBot has no daemon or background scheduler. Monitoring happens when the user starts a harness session or configures harness-owned automation outside this repository. During an active task, continue the selected work until an approval or user-only checkpoint is needed; this is not unattended background work.
 
 ## Reconcile evidence
 
