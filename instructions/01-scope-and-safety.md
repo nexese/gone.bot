@@ -2,13 +2,13 @@
 
 ## Confirm the user and goal
 
-Ask whether the user wants the strongest available exposure reduction or a specific control. Use this preference order unless the user chooses otherwise:
+Tell the user that GoneBot will use this preference order for every reviewed broker. Do not present it as a setup choice:
 
 1. deletion or erasure;
 2. persistent public suppression, sale/sharing/marketing opt-out, or a block on release;
 3. security freeze or another release restriction when the broker does not offer removal.
 
-Do not stack choices blindly. Preserve a suppression record when deleting it would make information visible again. Explain a freeze literally: it limits specified third-party access but normally does not erase the file. Initial automated assistance is limited to an adult acting for themself. Representation, minors, dependents, guardianship, powers of attorney, deceased people, protected addresses, and high-risk situations require manual professional review.
+Do not stack choices blindly. Preserve a suppression record when deleting it would make information visible again. Explain a freeze literally: it limits specified third-party access but normally does not erase the file. Initial automated assistance is limited to an adult acting for themself. Confirm that condition and ask for the user's residence or jurisdiction (country and U.S. state, if applicable). Representation, minors, dependents, guardianship, powers of attorney, deceased people, protected addresses, and high-risk situations require manual professional review.
 
 Do not prepare requests that do not seek removal or reduced exposure. A search, lookup, or record-selection step is in scope only when the broker's restriction flow requires the user to identify their own record.
 
