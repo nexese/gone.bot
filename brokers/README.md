@@ -15,6 +15,7 @@ For a user outside California, or where choices vary by residence, first use the
 - [`liveramp.md`](liveramp.md) — advertising opt-out and jurisdiction-dependent deletion.
 - [`acxiom.md`](acxiom.md) — country-routed deletion and opt-out requests.
 - [`epsilon.md`](epsilon.md) — deletion and distinct marketing or processing opt-outs.
+- [`criteo.md`](criteo.md) — EEA/UK erasure route and browser-specific advertising control.
 - [`cotality.md`](cotality.md) — privacy deletion/opt-out entry point and Credco source-bureau guidance.
 - [`optout-prescreen.md`](optout-prescreen.md) — five-year or permanent firm-offer list opt-out covering four credit bureaus.
 - [`equifax.md`](equifax.md) — nationwide credit-report freeze.
