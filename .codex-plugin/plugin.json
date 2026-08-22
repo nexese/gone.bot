@@ -1,6 +1,6 @@
 {
   "name": "gonebot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Help users reduce data-broker exposure with approval-bound deletion, suppression, opt-out, block, or freeze requests.",
   "author": {
     "name": "Alex McNamara",
