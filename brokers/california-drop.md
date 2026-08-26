@@ -4,7 +4,7 @@
 - Category: government mechanism
 - Jurisdictions: California residents
 - Review status: reviewed guidance
-- Last reviewed: 2026-08-14
+- Last reviewed: 2026-08-25
 
 ## Official sources
 
@@ -34,6 +34,17 @@ The live portal determines the required fields. California's program information
 4. Stop before final submission and ask the user to review the live request.
 5. After the user submits, record only the date, status, and non-secret reference they choose to retain.
 
+## California queue overlap
+
+After a user submits DROP, do not immediately queue separate direct deletion requests to Data Axle, Acxiom, or Epsilon. DROP applies to all current and future active DROP data brokers unless the user narrows their request; wait for the broker-specific DROP status before treating a direct deletion form as necessary. The list and status displayed in the user's DROP account are authoritative for a particular company.
+
+Keep these as separate, non-duplicate cases when the user wants their distinct result:
+
+- Spokeo, Whitepages, BeenVerified, and PeopleConnect — public-listing suppression. DROP does not delete publicly available data, so a public-result suppression can still be useful.
+- OptOutPrescreen — firm-offer credit/insurance-list opt-out, not data-broker deletion.
+
+Defer Cotality's direct privacy route until DROP reports a status or the user identifies a separate need. Its property/public or consumer-reporting data can be outside DROP's deletion scope or legally exempt.
+
 ## Manual checkpoints
 
 - CAPTCHA: unknown; handle manually if shown
@@ -49,5 +60,6 @@ A portal confirmation means only that DROP accepted the request. Broker processi
 ## Limitations
 
 - The program is limited to eligible California residents and registered data brokers.
+- Data brokers may take up to 90 days to report a status in DROP. A pending result before then does not itself justify a duplicate direct deletion request.
 - Coverage, exemptions, and portal behavior may change. Stop if the live process differs materially from this profile.
 - GoneBot does not decide eligibility or provide legal advice.
