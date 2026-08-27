@@ -4,7 +4,11 @@
 
 Ask for explicit approval immediately before sending an email, submitting a form, uploading a document, or making another external disclosure. Approval applies only to the previewed action. Prior enthusiasm, general consent, or approval for another broker is insufficient.
 
-Approval is a conversational response to the agent, not a control on the broker's website. End every approval preview with a direct instruction such as: `Reply "approve" in this conversation to authorize this action, or reply with changes or "cancel".` Do not imply that an approval button exists in the portal or desktop client. If the live site also has a button such as **I accept** or **Submit**, identify it separately as the site control the harness will use after conversational approval.
+Approval is a conversational response to the agent, not a control on the broker's website. End every approval preview—and the entire agent response—with a direct instruction in its own visually distinct Markdown blockquote, such as:
+
+> **Action needed:** Reply "approve" in this conversation to authorize this action, or reply with changes, or "cancel".
+
+Do not add content after this prompt. Do not imply that an approval button exists in the portal or desktop client. If the live site also has a button such as **I accept** or **Submit**, identify it separately as the site control the harness will use after conversational approval.
 
 ## Use harness-owned connectors
 
